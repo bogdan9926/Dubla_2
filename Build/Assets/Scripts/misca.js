@@ -1,4 +1,4 @@
-﻿// Smothly open a door
+
 var smooth = 2.0;
 var DoorOpenAngle = 90.0;
 private var open : boolean;
@@ -11,17 +11,15 @@ function Start(){
     defaultRot = transform.eulerAngles;
     openRot = new Vector3 (defaultRot.x,  defaultRot.y - DoorOpenAngle, defaultRot.z);
 }
-
-//Main function
 function Update (){
     if(open){
-        //Open door
+        //deschide usa
         transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, openRot, Time.deltaTime * smooth);
     }else{
-        //Close door
+        //inchide usa
         transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, defaultRot, Time.deltaTime * smooth);
     }
-
+    //verifica daca jucatorul este in raza de actiune a usii
     if(Input.GetKeyDown("e") && enter){
         open = !open;
     }
@@ -33,14 +31,11 @@ function OnGUI(){
     }
 }
 
-//Activate the Main function when player is near the door
 function OnTriggerEnter (other : Collider){
     if (other.gameObject.tag == "Player") {
         enter = true;
     }
 }
-
-    //Deactivate the Main function when player is go away from door
     function OnTriggerExit (other : Collider){
         if (other.gameObject.tag == "Player") {
             enter = false;
