@@ -30,7 +30,7 @@ Scarlat Elena Anca
 
 Asset-uri și script-uri ce nu ne aparțin:
 
-- tufișurile, din pachetul Nature Starter Kit 2
+-tufișurile, din pachetul Nature Starter Kit 2
 https://www.assetstore.unity3d.com/en/#!/content/52977
 
 -florile, din pachetul Ornamental Flower Set
