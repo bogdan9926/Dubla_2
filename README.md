@@ -37,5 +37,3 @@ https://www.assetstore.unity3d.com/en/#!/content/52977
 https://www.assetstore.unity3d.com/en/#!/content/11920
 
 -copacii și FPSController-ul sunt prefabricați Unity și fac parte din Standard Assets.
-
--
