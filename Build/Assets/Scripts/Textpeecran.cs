@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//afiseaza textul pe ecranul jucatorului
 public class Textpeecran : MonoBehaviour
 {
     public bool display = false;
-    public bool displayInfo;
+    public bool displayInfo;// vede daca jucatorul are mouse-ul indreptat spre tinta
     public int x;
     public int y;
     string text = System.IO.File.ReadAllText("text_1.txt");
@@ -34,17 +34,17 @@ public class Textpeecran : MonoBehaviour
         displayInfo = false;
 
     }
-    void OnTriggerEnter(Collider iCollide)
+    void OnTriggerEnter(Collider iCollide) //vede daca jucatorul este in trigger-ul tintei
     {
         if (iCollide.transform.name == "FPSController")
             display = true;
     }
-    void OnTriggerExit(Collider iCollide)
+    void OnTriggerExit(Collider iCollide) //vede daca jucatorul este in trigger-ul tintei
     {
         if (iCollide.transform.name == "FPSController")
             display = false;
     }
-    void OnGUI()
+    void OnGUI()//afiseaza textul pe ecran creand un dreptunghi de dimensiuni ajustabile
     {
         GUI.skin = aSkin;
         GUIStyle style = new GUIStyle(GUI.skin.GetStyle("box"));
