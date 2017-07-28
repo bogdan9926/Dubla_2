@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: c5e07a67fa98f134eb15ad33eb9e06f3
+timeCreated: 1488474061
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
+  assetHash:
+    serializedVersion: 2
+    Hash: e850e894b13b251d6a0727486301d0eb
+  longitude: 35.233927
+  latitude: 31.776081
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.30780008, y: 0.2921059, z: -0.07041229}
+      lookAt: {x: -22.684834, y: -25.151209, z: 5.596671}
+      up: {x: -0.7107368, y: 0.6812972, z: 0.17517805}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: bottom
+    100004: //RootNode
+    100006: front
+    100008: l side
+    100010: r side
+    100012: small wooden box
+    100014: top
+    400000: back
+    400002: bottom
+    400004: //RootNode
+    400006: front
+    400008: l side
+    400010: r side
+    400012: small wooden box
+    400014: top
+    2300000: back
+    2300002: bottom
+    2300004: front
+    2300006: l side
+    2300008: r side
+    2300010: top
+    3300000: back
+    3300002: bottom
+    3300004: front
+    3300006: l side
+    3300008: r side
+    3300010: top
+    4300000: Mesh back
+    4300002: Mesh front
+    4300004: Mesh r side
+    4300006: Mesh l side
+    4300008: Mesh top
+    4300010: Mesh bottom
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

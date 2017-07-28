@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: 648d7a3da23b9544c98d9cb353463652
+timeCreated: 1488474535
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000
+  assetHash:
+    serializedVersion: 2
+    Hash: c185b2b16d782e64062adc316fd91109
+  longitude: 35.233927
+  latitude: 31.776081
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -0.49315143, y: 3.4892774, z: -7.1646543}
+      lookAt: {x: 1.2327071, y: -4.550278, z: 26.607023}
+      up: {x: 0.011804829, y: 0.97288275, z: 0.23099744}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 39244
+    100002: altar cross
+    100004: Brass Crucifix
+    100006: Component#21
+    100008: Component#22
+    100010: //RootNode
+    100012: Group 1
+    100014: Group 3
+    100016: Group 5
+    100018: Group 7
+    100020: Group 9
+    100022: Group#119
+    100024: Group#120
+    100026: Group#121
+    100028: Group#122
+    100030: Group#123
+    100032: Hip
+    100034: I
+    100036: I#1
+    100038: Jesus
+    100040: Jesus Crucified
+    100042: lBigToe1
+    100044: lBigToe2
+    100046: Left_Foot
+    100048: Left_Hand
+    100050: Left_Shin
+    100052: Left_Thigh
+    100054: LeftCollar
+    100056: LeftFore_5
+    100058: lIndex1
+    100060: lIndex2
+    100062: lIndex3
+    100064: lIndexToe1
+    100066: lIndexToe2
+    100068: lMid1
+    100070: lMid2
+    100072: lMid3
+    100074: lMidToe1
+    100076: lMidToe2
+    100078: lPinky1
+    100080: lPinky2
+    100082: lPinky3
+    100084: lPinkyToe1
+    100086: lPinkyToe2
+    100088: lRing1
+    100090: lRing2
+    100092: lRing3
+    100094: lRingToe1
+    100096: lRingToe2
+    100098: lThumb1
+    100100: lThumb2
+    100102: lThumb3
+    100104: lToe
+    100106: Messy_Ja_6
+    100108: N
+    100110: R
+    100112: rBigToe1
+    100114: Right_Foot
+    100116: Right_Hand
+    100118: Right_Shin
+    100120: RightCol_1
+    100122: RightFor_3
+    100124: RightSho_2
+    100126: RightThigh
+    100128: rIndex1
+    100130: rIndex2
+    100132: rIndex3
+    100134: rIndexToe1
+    100136: rIndexToe2
+    100138: rMid1
+    100140: rMid2
+    100142: rMid3
+    100144: rMidToe1
+    100146: rMidToe2
+    100148: rPinky1
+    100150: rPinky2
+    100152: rPinky3
+    100154: rPinkyToe1
+    100156: rPinkyToe2
+    100158: rRing1
+    100160: rRing2
+    100162: rRing3
+    100164: rRingToe1
+    100166: rRingToe2
+    100168: rThumb1
+    100170: rThumb2
+    100172: rThumb3
+    100174: rToe
+    100176: Titlus
+    400000: 39244
+    400002: altar cross
+    400004: Brass Crucifix
+    400006: Component#21
+    400008: Component#22
+    400010: //RootNode
+    400012: Group 1
+    400014: Group 3
+    400016: Group 5
+    400018: Group 7
+    400020: Group 9
+    400022: Group#119
+    400024: Group#120
+    400026: Group#121
+    400028: Group#122
+    400030: Group#123
+    400032: Hip
+    400034: I
+    400036: I#1
+    400038: Jesus
+    400040: Jesus Crucified
+    400042: lBigToe1
+    400044: lBigToe2
+    400046: Left_Foot
+    400048: Left_Hand
+    400050: Left_Shin
+    400052: Left_Thigh
+    400054: LeftCollar
+    400056: LeftFore_5
+    400058: lIndex1
+    400060: lIndex2
+    400062: lIndex3
+    400064: lIndexToe1
+    400066: lIndexToe2
+    400068: lMid1
+    400070: lMid2
+    400072: lMid3
+    400074: lMidToe1
+    400076: lMidToe2
+    400078: lPinky1
+    400080: lPinky2
+    400082: lPinky3
+    400084: lPinkyToe1
+    400086: lPinkyToe2
+    400088: lRing1
+    400090: lRing2
+    400092: lRing3
+    400094: lRingToe1
+    400096: lRingToe2
+    400098: lThumb1
+    400100: lThumb2
+    400102: lThumb3
+    400104: lToe
+    400106: Messy_Ja_6
+    400108: N
+    400110: R
+    400112: rBigToe1
+    400114: Right_Foot
+    400116: Right_Hand
+    400118: Right_Shin
+    400120: RightCol_1
+    400122: RightFor_3
+    400124: RightSho_2
+    400126: RightThigh
+    400128: rIndex1
+    400130: rIndex2
+    400132: rIndex3
+    400134: rIndexToe1
+    400136: rIndexToe2
+    400138: rMid1
+    400140: rMid2
+    400142: rMid3
+    400144: rMidToe1
+    400146: rMidToe2
+    400148: rPinky1
+    400150: rPinky2
+    400152: rPinky3
+    400154: rPinkyToe1
+    400156: rPinkyToe2
+    400158: rRing1
+    400160: rRing2
+    400162: rRing3
+    400164: rRingToe1
+    400166: rRingToe2
+    400168: rThumb1
+    400170: rThumb2
+    400172: rThumb3
+    400174: rToe
+    400176: Titlus
+    2300000: altar cross
+    2300002: Component#21
+    2300004: Component#22
+    2300006: Group 3
+    2300008: Group 5
+    2300010: Group 7
+    2300012: Group 9
+    2300014: Group#119
+    2300016: Group#120
+    2300018: Group#121
+    2300020: Group#122
+    2300022: Group#123
+    2300024: Hip
+    2300026: I
+    2300028: I#1
+    2300030: lBigToe1
+    2300032: lBigToe2
+    2300034: Left_Foot
+    2300036: Left_Hand
+    2300038: Left_Shin
+    2300040: Left_Thigh
+    2300042: LeftCollar
+    2300044: LeftFore_5
+    2300046: lIndex1
+    2300048: lIndex2
+    2300050: lIndex3
+    2300052: lIndexToe1
+    2300054: lIndexToe2
+    2300056: lMid1
+    2300058: lMid2
+    2300060: lMid3
+    2300062: lMidToe1
+    2300064: lMidToe2
+    2300066: lPinky1
+    2300068: lPinky2
+    2300070: lPinky3
+    2300072: lPinkyToe1
+    2300074: lPinkyToe2
+    2300076: lRing1
+    2300078: lRing2
+    2300080: lRing3
+    2300082: lRingToe1
+    2300084: lRingToe2
+    2300086: lThumb1
+    2300088: lThumb2
+    2300090: lThumb3
+    2300092: lToe
+    2300094: Messy_Ja_6
+    2300096: N
+    2300098: R
+    2300100: rBigToe1
+    2300102: Right_Foot
+    2300104: Right_Hand
+    2300106: Right_Shin
+    2300108: RightCol_1
+    2300110: RightFor_3
+    2300112: RightSho_2
+    2300114: RightThigh
+    2300116: rIndex1
+    2300118: rIndex2
+    2300120: rIndex3
+    2300122: rIndexToe1
+    2300124: rIndexToe2
+    2300126: rMid1
+    2300128: rMid2
+    2300130: rMid3
+    2300132: rMidToe1
+    2300134: rMidToe2
+    2300136: rPinky1
+    2300138: rPinky2
+    2300140: rPinky3
+    2300142: rPinkyToe1
+    2300144: rPinkyToe2
+    2300146: rRing1
+    2300148: rRing2
+    2300150: rRing3
+    2300152: rRingToe1
+    2300154: rRingToe2
+    2300156: rThumb1
+    2300158: rThumb2
+    2300160: rThumb3
+    2300162: rToe
+    2300164: Titlus
+    3300000: altar cross
+    3300002: Component#21
+    3300004: Component#22
+    3300006: Group 3
+    3300008: Group 5
+    3300010: Group 7
+    3300012: Group 9
+    3300014: Group#119
+    3300016: Group#120
+    3300018: Group#121
+    3300020: Group#122
+    3300022: Group#123
+    3300024: Hip
+    3300026: I
+    3300028: I#1
+    3300030: lBigToe1
+    3300032: lBigToe2
+    3300034: Left_Foot
+    3300036: Left_Hand
+    3300038: Left_Shin
+    3300040: Left_Thigh
+    3300042: LeftCollar
+    3300044: LeftFore_5
+    3300046: lIndex1
+    3300048: lIndex2
+    3300050: lIndex3
+    3300052: lIndexToe1
+    3300054: lIndexToe2
+    3300056: lMid1
+    3300058: lMid2
+    3300060: lMid3
+    3300062: lMidToe1
+    3300064: lMidToe2
+    3300066: lPinky1
+    3300068: lPinky2
+    3300070: lPinky3
+    3300072: lPinkyToe1
+    3300074: lPinkyToe2
+    3300076: lRing1
+    3300078: lRing2
+    3300080: lRing3
+    3300082: lRingToe1
+    3300084: lRingToe2
+    3300086: lThumb1
+    3300088: lThumb2
+    3300090: lThumb3
+    3300092: lToe
+    3300094: Messy_Ja_6
+    3300096: N
+    3300098: R
+    3300100: rBigToe1
+    3300102: Right_Foot
+    3300104: Right_Hand
+    3300106: Right_Shin
+    3300108: RightCol_1
+    3300110: RightFor_3
+    3300112: RightSho_2
+    3300114: RightThigh
+    3300116: rIndex1
+    3300118: rIndex2
+    3300120: rIndex3
+    3300122: rIndexToe1
+    3300124: rIndexToe2
+    3300126: rMid1
+    3300128: rMid2
+    3300130: rMid3
+    3300132: rMidToe1
+    3300134: rMidToe2
+    3300136: rPinky1
+    3300138: rPinky2
+    3300140: rPinky3
+    3300142: rPinkyToe1
+    3300144: rPinkyToe2
+    3300146: rRing1
+    3300148: rRing2
+    3300150: rRing3
+    3300152: rRingToe1
+    3300154: rRingToe2
+    3300156: rThumb1
+    3300158: rThumb2
+    3300160: rThumb3
+    3300162: rToe
+    3300164: Titlus
+    4300000: Mesh Group 3
+    4300002: Mesh Group 5
+    4300004: Mesh Group 7
+    4300006: Mesh Group 9
+    4300008: Mesh altar cross
+    4300010: Mesh Titlus
+    4300012: Mesh I#1
+    4300014: Mesh R
+    4300016: Mesh N
+    4300018: Mesh I
+    4300020: Mesh Component#22
+    4300022: Mesh Component#21
+    4300024: Mesh Left_Foot
+    4300026: Mesh Left_Hand
+    4300028: Mesh Left_Shin
+    4300030: Mesh lBigToe2
+    4300032: Mesh lIndex1
+    4300034: Mesh lIndex2
+    4300036: Mesh lIndex3
+    4300038: Mesh lIndexToe1
+    4300040: Mesh lIndexToe2
+    4300042: Mesh lMid1
+    4300044: Mesh lMid2
+    4300046: Mesh lMid3
+    4300048: Mesh lMidToe1
+    4300050: Mesh lMidToe2
+    4300052: Mesh lPinky1
+    4300054: Mesh lPinky2
+    4300056: Mesh lPinky3
+    4300058: Mesh lPinkyToe1
+    4300060: Mesh lPinkyToe2
+    4300062: Mesh LeftFore_5
+    4300064: Mesh RightFor_3
+    4300066: Mesh RightSho_2
+    4300068: Mesh Right_Foot
+    4300070: Mesh Right_Hand
+    4300072: Mesh Right_Shin
+    4300074: Mesh lBigToe1
+    4300076: Mesh lRing1
+    4300078: Mesh lRing2
+    4300080: Mesh lRing3
+    4300082: Mesh lRingToe1
+    4300084: Mesh lRingToe2
+    4300086: Mesh lThumb1
+    4300088: Mesh lThumb2
+    4300090: Mesh lThumb3
+    4300092: Mesh lToe
+    4300094: Mesh rBigToe1
+    4300096: Mesh rIndex1
+    4300098: Mesh rIndex2
+    4300100: Mesh rIndex3
+    4300102: Mesh rIndexToe1
+    4300104: Mesh rIndexToe2
+    4300106: Mesh rMid1
+    4300108: Mesh rMid2
+    4300110: Mesh rMid3
+    4300112: Mesh rMidToe1
+    4300114: Mesh rMidToe2
+    4300116: Mesh rPinky1
+    4300118: Mesh rPinky2
+    4300120: Mesh rPinky3
+    4300122: Mesh rPinkyToe1
+    4300124: Mesh rPinkyToe2
+    4300126: Mesh rRing1
+    4300128: Mesh rRing2
+    4300130: Mesh rRing3
+    4300132: Mesh rRingToe1
+    4300134: Mesh rRingToe2
+    4300136: Mesh rThumb1
+    4300138: Mesh rThumb2
+    4300140: Mesh rThumb3
+    4300142: Mesh rToe
+    4300144: Mesh Group#120
+    4300146: Mesh Group#121
+    4300148: Mesh Left_Thigh
+    4300150: Mesh Hip
+    4300152: Mesh RightCol_1
+    4300154: Mesh RightThigh
+    4300156: Mesh LeftCollar
+    4300158: Mesh Group#119
+    4300160: Mesh Messy_Ja_6
+    4300162: Mesh Group#122
+    4300164: Mesh Group#123
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

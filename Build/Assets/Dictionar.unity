@@ -1,0 +1,1676 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 4
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_DirectLightInLightProbes: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+  m_LightingDataAsset: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &321106751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 321106754}
+  - component: {fileID: 321106753}
+  - component: {fileID: 321106752}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &321106752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321106751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &321106753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321106751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &321106754
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 321106751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &388209102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 388209103}
+  - component: {fileID: 388209105}
+  - component: {fileID: 388209104}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &388209103
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 388209102}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1380994660}
+  m_Father: {fileID: 2100945281}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 6}
+  m_SizeDelta: {x: 159, y: 43}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &388209104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 388209102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.06158088, g: 0.3677865, b: 0.49264705, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &388209105
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 388209102}
+--- !u!1 &558847204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 558847205}
+  - component: {fileID: 558847207}
+  - component: {fileID: 558847206}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &558847205
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 558847204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 700366316}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &558847206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 558847204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ff57967f6175645409f9e2388d2f4ab6, type: 3}
+    m_FontSize: 21
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 201
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Muzeu
+--- !u!222 &558847207
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 558847204}
+--- !u!1 &691991348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 691991349}
+  - component: {fileID: 691991351}
+  - component: {fileID: 691991350}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &691991349
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 691991348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1758384189}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -6037}
+  m_SizeDelta: {x: 1029, y: 12400}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &691991350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 691991348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.14705884, g: 0.14705884, b: 0.14705884, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 25
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 100
+    m_Alignment: 1
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\tABSID\u0102\n\t-desemn\xE2nd la origine o construc\u0163ie de plan smicircular
+    \  acoperit\u0103 cu o jum\u0103tate decalot\u0103, termenul s-a extins asupra
+    extremit\u0103\u0163ii estice a edificiilor religioase rezervate clerului \u015Fi
+    oficierii cultului;\n  \r\n\u2022\n\n\tABSIDIOL\u0102\n\t-absid\u0103 secundar\u0103
+    flanc\xE2nd-o pe cea a altarului;\r\n\n\u2022\n\n\tACANT\n\t-motiv ornamental
+    inspirat de frunzi\u015Ful unei plante originare din jurul Mediteranei, reprezentat
+    de sculptura decorativ\u0103 mai cu seam\u0103 la capiteluri;\r\n\n\u2022\n\n\tAER\n\t-v\u0103l
+    liturgic brodat care se p\u0103streaz\u0103 la proscomidie;\r\n\n\u2022\n\t\n\tANCADRAMENT\n\t-
+    cadru de piatr\u0103, profilat sau decorat cu reliefuri ale unei deschideri de
+    fereastr\u0103, u\u015F\u0103-portal;\r\n\n\u2022\n\tANTABLAMENT\n\t-partea superioar\u0103
+    orizontal\u0103 a unui ordin arhitectural, a\u015Fezat deasupra coloanelor \u015Fi
+    compus din trei p\u0103r\u0163i distincte, suprapuse;\r\n\n\u2022\n\n\tARHITRV\u0102,
+    FRIZ\u0102 \u015Fi CORNI\u015E\u0102\n\t-arc. Structur\u0103 curb\u0103 compus\u0103
+    din bol\u0163ari sau c\u0103r\u0103mizi dispuse radial, destinat\u0103 s\u0103
+    acopere o deschidere de zid sau s\u0103 lege dou\u0103 sprijine izolate c\u0103rora
+    le transmite \xEEmpingeri oblice;\r\n\n\u2022\t\n\n\tARCAD\u0102\n\t-deschidere
+    construit\u0103 dintr-un arc \xEEmpreun\u0103 cu elementele verticale de sprijin;\r\n\n\u2022\n\n\tARC
+    TREFLAT\n\t- arc decorativ cu trei lobi;\r\n\n\u2022\n\n\tARHITRAV\u0102\n\t-element
+    rigid, orizontal din piatr\u0103 rezemat pe dou\u0103 spijine verticale(ziduri,
+    coloane, st\xE2lpi);\r\n\n\u2022\n\n\tASIZ\u0102\n\t- \xEEn construc\u0163ia zidurilor,
+    oricare din r\xE2ndurile dispuse pe orizontal\u0103 din materiale care-l constituie-
+    piatr\u0103 f\u0103\u0163uit\u0103, bolovani, c\u0103r\u0103mid\u0103, av\xE2nd
+    aceea\u015Fi \xEEn\u0103l\u0163ime. \n\r\n\u2022\n\n\tBARBACAN\u0102\n\t-lucrare
+    de fortifica\u0163ie avansat\u0103, exterioar\u0103 incintei propiu-zis\u0103
+    a unei cet\u0103\u0163i, unui ora\u015F, cet\u0103\u0163i, cu scopul de-a ap\u0103ra
+    poarta;\r\n\n\u2022\n\n\tBOLNI\u0162\u0102\n\t-infirmerie sau a\u015Fez\u0103m\xE2nt
+    pentru orfani sau b\u0103tr\xE2ni pe l\xE2ng\u0103  o m\xE2n\u015Fstire ortodox\u0103,
+    cuprinz\xE2nd \u015Fi un paraclis propriu;\r\n\n\u2022\n\n\tBOLT\u0102\n\t- structur\u0103
+    curb\u0103 compus\u0103 de bol\u0163ari sau c\u0103r\u0103mizi dispuse radial,pentru
+    acoperirea unui spa\u0163iu m\u0103rginit de pere\u0163i plini;\r\r\n\n\u2022\n\n\tBOL\u0162AR\n\t-bloc
+    de piatr\u0103 constituind elementul component al arcului sau bol\u0163ii, a c\u0103rui
+    form\u0103 rezult\u0103 din locul pe care \xEEl ocup\u0103 \xEEn zid\u0103ria
+    curb\u0103.Astfel, fa\u0163a lui inferioar\u0103, constituind intradosul e o por\u0163iune
+    de cilindru, fe\u0163ele laterale sunt plane oblice radiale, iar fa\u0163a superioar\u0103,
+    extradosul, ia forme diferite cerute de integrarea lui \xEEn zid\u0103ria suprapus\u0103.\r\n\n\u2022\n\n\tCALOT\u0102\n\t-
+    bolt\u0103 \xEEn form\u0103 de jum\u0103tate de sfer\u0103 ridicat\u0103 pe plan
+    circular sau pe un p\u0103trat, prin intermediul pandantivilor sau al trompelor
+    de col\u0163;\r\n\n\u2022\n\n\tCAPITEL\n\t-element arhitectonic, \xEEn general
+    l\u0103\u0163it la partea lui superioar\u0103, intrepus \xEEntre arc sau antablament
+    \u015Fi fusul coloanei sau corpului st\xE2lpului, c\u0103rora le transmite greutatea
+    structurilor suprapuse;\r\n\n\u2022\n\n\tCATAPETEASM\u0102\n\t-v\u0103l liturgic
+    brodat \xEEnchiz\xE2nd u\u015File \xEEmp\u0103r\u0103te\u015Fti ale iconostasului;\r\n\n\u2022\n\n\tCANELURI\n\t-
+    \u015Fan\u0163 \xEEngust care br\u0103zdeaz\u0103 vertical (sau elicoidal) corpul
+    unei coloane, al unui pilastru\r\n\n\u2022\n\n\tCERDAC\n\t-termenul \xEEntrebuin\u0163at
+    \xEEn Moldova pentru foi\u015For;\r\n\n\u2022\n\n\tCHEIE DE ARC-\n\t-bol\u0163arul
+    din v\xE2rful arcului, care \xEEl \xEEnchide, men\u0163in\xE2nd pe to\u0163i ceilal\u0163i
+    bol\u0163ari, dispu\u015Fi radial;\r\n\n\u2022\n\n\tCHEIE DE BOLT\u0102\n\t-bol\u0163arul
+    superior, care \xEEnchide o bolt\u0103 \xEEn leag\u0103n;\r\n\n\u2022\n\n\tCHIVOT\n\t-cutie
+    pentru p\u0103strarea cuminec\u0103turii, din lemn sau argint cizelat; \r\n           \t-pies\u0103
+    de cult de argint\u0103rie de forma unei biserici ortodoxe \xEEn miniatur\u0103,
+    \rpurtat\u0103 de diaconi \xEEn timpul procesiunilor slujbei;\r\n\n\u2022\n\n\tCIUBUC\n\t-mulur\u0103
+    de profil semicircular;\r\n\n\u2022\n\n\tCOLOAN\u0102\n\t-sprijin izolat vertical,
+    cilindric, compus din baz\u0103, fus \u015Fi capitel, \rcare are rolul static
+    de a suporta arhitrava sau arcul;\r\n\n\u2022\n\n\tCOLONET\u0102\n\t- coloan\u0103
+    de mici dimensiuni, de diametru redus;\n\r\n\u2022\n\n\tCONSOL\u0102\n\t-element
+    portant din piatr\u0103 sau lemn, menit s\u0103 suporte un corp de edificiu \rmult
+    proiectat \xEEn afara planului vertical al fa\u0163adei;\r\n\n\u2022\n\n\tCONTRFORTURILE\n\t-\xEEnt\u0103ritur\u0103
+    masiv\u0103 de beton sau de zid\u0103rie \xEEn form\u0103 de pilastru, care formeaz\u0103
+    corp comun cu un zid \u015Fi care serve\u015Fte la m\u0103rirea rezisten\u0163ei
+    lui;\n\r\r\n\u2022\n\n\tCORNI\u015E\u0102\n\t-\xEEn arhitectura clasic\u0103,
+    diviziunea superioar\u0103 a antablamentului;\r\n\n\u2022\n\n\tCUL\u0102\n\t-locuin\u0163\u0103
+    fortificat\u0103 cu mai multe nivele, cu acces direct numai la etaj, amintind
+    ca form\u0103 de un turn;\r\n\n\u2022\n\n\tCURTIN\u0102\n\t-zidul de \xEEmprejmuire
+    al castelelor, cet\u0103\u0163ilor sau ora\u015Felor, str\u0103puns de metereze
+    \u015Fi \xEEncoronat cu creneluri, de obicei \xEEntrerupt la anumite intervale
+    de turnuri sau bastioane;\n\r\n\u2022\n\n\tDRANI\u0162\u0102\n\t-\u015Findril\u0103
+    moldoveneasc\u0103 mai groas\u0103 \u015Fi de dimensiuni mai mari, de brad sau
+    de stejar;\r\n\n\u2022\n\n\tEPITAF\n\t-v\u0103l liturgic brodat, de mari dimensiuni,
+    ini\u0163ial cu rol de acoper\u0103m\xE2nt de altar, mai t\xE2rziu numai cu func\u0163ie
+    procesional\u0103 \xEEn ritualul Vinerii mari din biserica ortodox\u0103;\n \r\n\u2022\n\n\tEPITRAHIL\n\t-pies\u0103
+    de ve\u015Fm\xE2nt liturgic preo\u0163esc \u015Fi arhieresc de forma unei e\u015Farfe
+    lungi, brodate care se poart\u0103 peste stibar, petrecut\u0103 \xEEn jurul g\xE2tului
+    \u015Fi cu capetele at\xE2rn\xE2nd \xEEn fa\u0163\u0103, prinse unul de altul
+    p\xE2n\u0103 la poale;\n\r\n\u2022\n\n\tFEREC\u0102TUR\u0102\n\t-\xEEmbr\u0103c\u0103minte
+    din metal pre\u0163ios, cizelat, \xEEmpodobit\u0103 cu reprezent\u0103ri figurale
+    \u015Fi uneori cu pietre pre\u0163ioase, aplicate peste un obiect de cult. Exist\u0103
+    ferec\u0103turi de icoane, evangheliere, cruci, racle;\n\r\n\u2022\n\n\tFOI\u015EOR\n\t-decro\u015F
+    pe care terasa etajului \xEEl face deasupra g\xE2rliciului pivni\u0163ei, de obicei
+    \xEEn axul fa\u0163adei, cu acoperi\u015Ful sus\u0163inut pe st\xE2lpi sau coloane;
+    permite accesul la catul locuit;\r\n\n\u2022\n\n\tFRIZ\u0102\n\t- (\xCEn arhitectura
+    clasic\u0103) Parte component\u0103 a antablamentului, cuprins\u0103 \xEEntre
+    arhitrav\u0103 \u0219i corni\u0219\u0103, de obicei \xEEmpodobit\u0103 cu picturi,
+    basoreliefuri, caneluri etc. Ornament \xEEn form\u0103 de band\u0103 orizontal\u0103
+    cu picturi sau reliefuri \xEEn jurul unui vas, al unei s\u0103li, al unui sarcofag
+    etc. \r\n\n\u2022\n\n\tFRONTON\n\t-element de form\u0103 triunghiular\u0103, m\u0103rginit
+    de o corni\u0219\u0103, care \xEEncoroneaz\u0103 fa\u021Bada unui edificiu.  Element
+    de arhitectur\u0103, alc\u0103tuit dintr-o corni\u0219\u0103 curb\u0103 sau fr\xE2nt\u0103,
+    care se g\u0103se\u0219te deasupra intr\u0103rii unui edificiu, deasupra unei
+    u\u0219i etc;\n\r\n\u2022\n\n\tG\xC2RLICI\n\t-intrare (str\xE2mt\u0103) \xEEntr-un
+    beci, \xEEntr-o pivni\u0163\u0103; \n\n\u2022\n\n\tICONOSTAS\n\t-\xEEn bisericile
+    ortodoxe, perete desp\u0103r\u0163itor \xEEntre absida altarului \u015Fi naos,
+    ridicat din lemn, zid\u0103rie sau piatr\u0103, acoperit cu icoane a\u015Fezate
+    \xEEntr-o ordine precis\u0103 \u015Fi str\u0103puns  de trei ori, care \xEEnchide
+    credincio\u015Filor vederea asupra slujbei ce se oficiaz\u0103 \xEEn altar;\r
+    \r\n\n\u2022\n\n\tINTRADOS\n\t- fa\u021Ba interioar\u0103 (concav\u0103) a unei
+    bol\u021Bi, a unui arc, a unei construc\u021Bii etc; \r\n\n\u2022\n\n\tLOGGIA\n\t-edificiu
+    independent cu un singur nivel, deschis pe una sau mai multe laturi prin intermediul
+    arcadelor. Element arhitectonic la etajul unui edificiu, deschis prin arcade pe
+    o singur\u0103 latur\u0103, deosebindu-se de  balcon prin aceea c\u0103 nu dep\u0103\u015Fe\u015Fte
+    planul fa\u0163adei;\r\n\n\u2022\n\n\tNAOS\n\t-partea  principal\u0103 a unei
+    biserici, situat\u0103 \xEEn mijlocul cl\u0103dirii, \xEEntre altar \u0219i pronaos;
+    \r\n\n\u2022\n\n\tNAV\u0102\n\t-corpul unei biserici, de la portal la altar, sinonim
+    cu naos, la bisericile sal\u0103;\r\n\n\u2022\n\n\tNI\u015E\u0102\n\t-retragere
+    dreapt\u0103 sau concav\u0103 practicat\u0103 \xEEn grosimea zidului;\r\n\n\u2022\n\n\tORAR\n\t-
+    pies\u0103 de ve\u015Fm\xE2nt liturgic diaconesc de forma unei f\xE2\u015Fii,
+    brodate, care se poart\u0103 pe deasupra stiharului, pe um\u0103rul st\xE2ng \u015Fi
+    at\xE2rn\xE2nd \xEEn fa\u0163\u0103;\r\n\n\u2022\n\n\tPARACLIS\n\t- biseric\u0103
+    de mici dimensiuni \xEEn cadrul unei m\xE2n\u0103stiri, unei cur\u0163i domne\u015Fti
+    sau boiere\u015Fti, sau cupol\u0103 funerar\u0103 independent\u0103;\r\n\n\u2022\n\n\tPERISTIL\n\t-portic
+    \xEEnconjur\xE2nd un templu, decor\xE2nd o fa\u0163ad\u0103, delimit\xE2nd o curte
+    interioar\u0103 \xEEn casa greac\u0103 \u015Fi roman\u0103;\r\n\n\u2022\n\n\tPILASTRU\n-st\xE2lp
+    paralelipipedic prev\u0103zut de obicei cu o baz\u0103 \u0219i cu un capitel,
+    care serve\u0219te ca element de ornamenta\u021Bie sau de consolidare a unui zid;\r\n\n\u2022\n\n\tPISANIE\n\t-inscrip\u021Bie
+    sculptat\u0103 \xEEn piatr\u0103, \xEEn lemn, \xEEn metal, pictat\u0103 etc. pe
+    lespezile unor morminte sau deasupra u\u0219ii principale la intrarea \xEEntr-o
+    biseric\u0103, \xEEn care sunt consemnate datele privind hramul, donatorul, ctitorul,
+    me\u0219terul, data ridic\u0103rii etc;\r\n\n\u2022\n\n\tPLAN\n\t-proiec\u0163ie
+    ortogonal\u0103 orizontal\u0103 a unui edificiu sau a unei p\u0103r\u0163i de
+    edificiu, de obicei desenat\u0103 la o scar\u0103 dat\u0103, pe un plan orizontal;\r\n
+    \                            1.Central-edificiu \xEEn care elementele componente
+    se desf\u0103\u015Foar\u0103 simetric \r\n                       fa\u0163\u0103
+    de   dou\u0103 axe perpendiculare; \r\n      2.\xCEn cruce greac\u0103-plan de
+    tip central la care cele patru bra\u0163e   perpendiculare  care deseneaz\u0103
+    pe sol forma unei cruci sunt egale;\r\n                            3.Treflat-plan
+    triconc la care cele trei abside sunt adiacente;\r\n    4.Triconc- plan al naosului
+    unei biserici \xEEn care \xEEn pere\u0163ii de r\u0103s\u0103rit, nord \u015Fi
+    \r\nsud    ai dreptunghiului se desfac trei abside. \r\n\n\u2022\n\n\tPOALE DE
+    ICOAN\u0102\n\t- pies\u0103 de broderie at\xE2rnat\u0103 sub o icoan\u0103 \u015Fi
+    purt\xE2nd o reprezentare iconografic\u0103;\r\n\n\u2022\n\n\t PORTAL\n\t- u\u015F\u0103
+    monumental\u0103 de acces \xEEntrun edificiu,accent deosebit de decorat \xEEn
+    compozi\u0163ia fa\u0163adei;\r\n\n\u2022\n\n\t PORTIC\n\t- galerie deschis\u0103
+    cel pu\u0163in pe o latur\u0103 printr-un \u015Fir de arcade sau antablament pe
+    coloane,\xEEmpodobit cu o fa\u0163ad\u0103 c\u0103tre strad\u0103, pia\u0163\u0103,
+    c\u0103tre o curte interioar\u0103 sau gr\u0103din\u0103.\xCEn Rena\u015Ftere
+    ia numele de logie;\n\r\n\u2022\n\n\t  PRIDVOR\n\t 1- \xEEn arhitectur\u0103 religioas\u0103,
+    \xEEnc\u0103perea \xEEnchis\u0103 sau deschis\u0103 prin arcade care precede pronaosul,
+    pe fa\u0163ada de vest a bisericii, protejindu-i intrarea.\r\n                 2-
+    \xEEn arhitectura civil\u0103, galerie deschis\u0103 pe st\xEElpi de lemn sau
+    cu arcade pe coloane de zid\u0103rie, a\u015Fezate pe fa\u0163ada casei. Sinonim
+    cu foi\u015For, cerdac.\r\n\n\u2022\n\n\tPRONAOS\n\t- \xEEnc\u0103perea care precede
+    naosul, desp\u0103r\u0163it de acesta prin perete plin sau prin arcade \u015Fi
+    rezervat \xEEn cultul ortodox ,femeilor, la bisericile de mir, \u015Fi slujbelor
+    de sear\u0103 \u015Fi noapte la bisericile de m\xE2n\u0103stire;\r\n\n\u2022\n\n\tPROSCOMIDIE\n\t-
+    la bisericile ortodoxe, ni\u015F\u0103 sau absidiol\u0103, uneori mic\u0103 \xEEnc\u0103pere
+    dipus\u0103 \xEEn nordul altarului;\r\n\n\u2022\n\n\tREPOUSSE\n\t- tehnica decor\u0103rii
+    metalelor prin cioc\u0103nire la rece a foii pe revers, astfel \xEEnc\xE2t motivul
+    apare \xEEn relief;\r\n\n\u2022\n\n\tSEMICALOT\u0102\n\t- bolt\u0103 \xEEn sfert
+    de sfer\u0103, form\u0103 obi\u015Fnuit\u0103 de acoperire a absidelor.\r\n\n\u2022\n\n\tST\xC2LP\n\t-
+    suport vertical izolat, de sec\u0163iune p\u0103trat\u0103, dreptunghiular\u0103
+    sau poligonal\u0103 \xEEn arhitectura de lemn, piatr\u0103 \u015Fi ziderie;\r\n\n\u2022\n\n\tSTUC\n\t-
+    tencuial\u0103 fin\u0103 dintr-o compozi\u0163ie de var \u015Fi nisip, uneori
+    cu adaos de praf de marmur\u0103, folosit\u0103 la parament exterioare sau interioare,
+    decorate cu ornamente modelate \xEEn relief m\u0103runt \xEEn aceast\u0103 past\u0103;\r\n\n\u2022\n\n\tSTUCATUR\u0102\n\t-
+    decora\u0163ie executat\u0103 din stuc;\r\n\n\u2022\n\n\tTAINI\u0162\u0102\n\t1.Ascunz\u0103toare
+    la pivni\u0163\u0103;\r\n      \t2.Ascunz\u0103toare pentru odoarele sfinte,deasupra
+    gropni\u0163ei \u015Fi accesibil\u0103 numai dintr-aceasta, printr-o scar\u0103
+    \xEEn melc;\r\n\n\u2022\n\n\tTAMBUR\n\t1.Bloc de piatr\u0103 construind o asiz\u0103
+    a unei coloane.\r\n               \t2.Corpul de sec\u0163iune cilindric\u0103
+    sau poligonal\u0103,str\u0103puns de ferestre, pe care st\u0103 calota unei turle.\r\n\n\u2022\n\n\tTIMPAN\n\t1.
+    Sinonim cu luneta;\r\n\t2. Sinonim cu fronton.\r\n\n\u2022\n\n\tT\xC2MPL\u0102
+    \n\t-iconostas\n\r\n\u2022\n\n\tTRAPEZ\u0102\n\t- sal\u0103 de mese a unei comunit\u0103\u0163i
+    monahale ortodoxe;\r\n\n\u2022\n\n\tTRAVEE\n\t- celul\u0103 de edificiu, repetabil\u0103
+    prin juxtapunere, care se distinge prin boltire proprie \u015Fi \xEEncadrare \xEEntre
+    patru elemente de sprijin( st\xE2lpi, coloane, contraforturi, pilia\u015Ftri);\r\n\n\u2022\n\n\tTURL\u0102\n\t-
+    cupol\u0103 \xEEn\u0103l\u0163at\u0103 prin intermediul unui tambur str\u0103puns
+    de ferestre;\r\n\n\u2022\n\n\tXILOGRAFIE\n\t- gravur\u0103 \xEEn lemn.\r\n\n\u2022\n\n\tZVONI\u0162\u0102\n\t1.
+    Cloponi\u0163\u0103 improvizat\u0103 prin supra\xEEn\u0103l\u0163area unui perete
+    al bisericii;\r\n              \t2. Clopotni\u0163\u0103 separat\u0103 de biseric\u0103,
+    de lemn sau zid\u0103rie.      \r"
+--- !u!222 &691991351
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 691991348}
+--- !u!1 &700366315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 700366316}
+  - component: {fileID: 700366319}
+  - component: {fileID: 700366318}
+  - component: {fileID: 700366317}
+  m_Layer: 5
+  m_Name: Muzeu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &700366316
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 700366315}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 558847205}
+  m_Father: {fileID: 1785121908}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 99, y: 32}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &700366317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 700366315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.9411765, g: 0.6160602, b: 0.034602053, a: 1}
+    m_HighlightedColor: {r: 0.046550598, g: 0.70464116, b: 0.9044118, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 700366318}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1213731875}
+        m_MethodName: ChangeToScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &700366318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 700366315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &700366319
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 700366315}
+--- !u!1 &878879648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 878879650}
+  - component: {fileID: 878879649}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &878879649
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 878879648}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &878879650
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 878879648}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &987124824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 987124829}
+  - component: {fileID: 987124828}
+  - component: {fileID: 987124827}
+  - component: {fileID: 987124826}
+  - component: {fileID: 987124825}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &987124825
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987124824}
+  m_Enabled: 1
+--- !u!124 &987124826
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987124824}
+  m_Enabled: 1
+--- !u!92 &987124827
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987124824}
+  m_Enabled: 1
+--- !u!20 &987124828
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987124824}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.3216912, g: 0.43464795, b: 0.625, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 19.577162
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &987124829
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 987124824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.59, y: -1.4, z: -6.93}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1163897999
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400202, guid: 668f67007b357dd43bd31855c719f39a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 400202, guid: 668f67007b357dd43bd31855c719f39a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.6566873
+      objectReference: {fileID: 0}
+    - target: {fileID: 400202, guid: 668f67007b357dd43bd31855c719f39a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 400202, guid: 668f67007b357dd43bd31855c719f39a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400202, guid: 668f67007b357dd43bd31855c719f39a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400202, guid: 668f67007b357dd43bd31855c719f39a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400202, guid: 668f67007b357dd43bd31855c719f39a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400202, guid: 668f67007b357dd43bd31855c719f39a, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 668f67007b357dd43bd31855c719f39a, type: 3}
+  m_IsPrefabParent: 0
+--- !u!1 &1213731874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1213731876}
+  - component: {fileID: 1213731875}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1213731875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1213731874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e94b9086872184b8ef0aa5970f1eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1213731876
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1213731874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 545.4544, y: 249.26021, z: 49}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1380994659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1380994660}
+  - component: {fileID: 1380994662}
+  - component: {fileID: 1380994661}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1380994660
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1380994659}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 388209103}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0.00000071525574}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1380994661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1380994659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Dic\u021Bionar"
+--- !u!222 &1380994662
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1380994659}
+--- !u!1 &1433951733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1433951734}
+  m_Layer: 5
+  m_Name: Sliding Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1433951734
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1433951733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1735016887}
+  m_Father: {fileID: 1441608557}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -20, y: -20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1441608556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1441608557}
+  - component: {fileID: 1441608560}
+  - component: {fileID: 1441608559}
+  - component: {fileID: 1441608558}
+  m_Layer: 5
+  m_Name: Scrollbar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1441608557
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1441608556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1433951734}
+  m_Father: {fileID: 2100945281}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -20, y: -8}
+  m_SizeDelta: {x: 21, y: -45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1441608558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1441608556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2061169968, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.046550598, g: 0.70464116, b: 0.9044118, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1735016888}
+  m_HandleRect: {fileID: 1735016887}
+  m_Direction: 2
+  m_Value: 1
+  m_Size: 0.026290322
+  m_NumberOfSteps: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Scrollbar+ScrollEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1441608559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1441608556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 7289831b344b503479c8268d17e38abc, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1441608560
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1441608556}
+--- !u!1 &1697687819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1697687820}
+  - component: {fileID: 1697687823}
+  - component: {fileID: 1697687822}
+  - component: {fileID: 1697687821}
+  m_Layer: 5
+  m_Name: Meniu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1697687820
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1697687819}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1871587867}
+  m_Father: {fileID: 1785121908}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 99, y: 73}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1697687821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1697687819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.046550598, g: 0.70464116, b: 0.9044118, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1697687822}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1213731875}
+        m_MethodName: ChangeToScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1697687822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1697687819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1697687823
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1697687819}
+--- !u!1 &1735016886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1735016887}
+  - component: {fileID: 1735016889}
+  - component: {fileID: 1735016888}
+  m_Layer: 5
+  m_Name: Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1735016887
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1735016886}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1433951734}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.000019967556, y: 7.600006}
+  m_SizeDelta: {x: 24, y: 24}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1735016888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1735016886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: bfdb9e4e89f015e4799db8b8341044a5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1735016889
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1735016886}
+--- !u!1 &1758384188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1758384189}
+  - component: {fileID: 1758384192}
+  - component: {fileID: 1758384191}
+  - component: {fileID: 1758384190}
+  - component: {fileID: 1758384193}
+  m_Layer: 5
+  m_Name: Scroll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1758384189
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1758384188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 691991349}
+  m_Father: {fileID: 2100945281}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -13.5, y: -8}
+  m_SizeDelta: {x: -57, y: -45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1758384190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1758384188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1367256648, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 691991349}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 0}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 1441608558}
+  m_HorizontalScrollbarVisibility: 0
+  m_VerticalScrollbarVisibility: 0
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1758384191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1758384188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1758384192
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1758384188}
+--- !u!114 &1758384193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1758384188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1200242548, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
+--- !u!1 &1785121904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1785121908}
+  - component: {fileID: 1785121907}
+  - component: {fileID: 1785121906}
+  - component: {fileID: 1785121905}
+  - component: {fileID: 1785121909}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1785121905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785121904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1785121906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785121904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1785121907
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785121904}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 1
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1785121908
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785121904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 2100945281}
+  - {fileID: 1697687820}
+  - {fileID: 700366316}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1785121909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785121904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6284b2ee197094441b5665077873b326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1871587866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1871587867}
+  - component: {fileID: 1871587869}
+  - component: {fileID: 1871587868}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1871587867
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1871587866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1697687820}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1871587868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1871587866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ff57967f6175645409f9e2388d2f4ab6, type: 3}
+    m_FontSize: 21
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Meniu
+
+'
+--- !u!222 &1871587869
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1871587866}
+--- !u!1 &2100945280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2100945281}
+  - component: {fileID: 2100945283}
+  - component: {fileID: 2100945282}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2100945281
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2100945280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 388209103}
+  - {fileID: 1758384189}
+  - {fileID: 1441608557}
+  m_Father: {fileID: 1785121908}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 142, y: -4.75}
+  m_SizeDelta: {x: -402, y: -62}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2100945282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2100945280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.908, g: 0.689506, b: 0.41035897, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &2100945283
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2100945280}

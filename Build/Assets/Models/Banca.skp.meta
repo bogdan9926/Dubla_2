@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: bba5d3d09e18f7747828f91e6b13cfdc
+timeCreated: 1495964802
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 98bf189a177bef0a70b2d6ba96bcdf43
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 3.1353421, y: 1.036922, z: -1.8163432}
+      lookAt: {x: -13.886417, y: -2.6066258, z: 15.480047}
+      up: {x: -0.104146026, y: 0.9889158, z: 0.105826326}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: '*U1128'
+    100002: '*U1135'
+    100004: '*U1135 1'
+    100006: '*U1135 2'
+    100008: '*U1135 3'
+    100010: '*U1136'
+    100012: '*U1136 1'
+    100014: '*U1258'
+    100016: '*U1262'
+    100018: '*U1262 1'
+    100020: '*U56807'
+    100022: '*U56807 1'
+    100024: '*U56807 2'
+    100026: '*U56807 3'
+    100028: '*U56807 4'
+    100030: '*U56807 5'
+    100032: '*U56807 6'
+    100034: '*U56807 7'
+    100036: '*U585'
+    100038: '*U585 1'
+    100040: '*U585 2'
+    100042: '*U585 3'
+    100044: '*U585 4'
+    100046: '*U62601'
+    100048: '*U62601 1'
+    100050: //RootNode
+    100052: Component#1
+    100054: Component#1 1
+    100056: FRAME
+    100058: SLATS
+    400000: '*U1128'
+    400002: '*U1135'
+    400004: '*U1135 1'
+    400006: '*U1135 2'
+    400008: '*U1135 3'
+    400010: '*U1136'
+    400012: '*U1136 1'
+    400014: '*U1258'
+    400016: '*U1262'
+    400018: '*U1262 1'
+    400020: '*U56807'
+    400022: '*U56807 1'
+    400024: '*U56807 2'
+    400026: '*U56807 3'
+    400028: '*U56807 4'
+    400030: '*U56807 5'
+    400032: '*U56807 6'
+    400034: '*U56807 7'
+    400036: '*U585'
+    400038: '*U585 1'
+    400040: '*U585 2'
+    400042: '*U585 3'
+    400044: '*U585 4'
+    400046: '*U62601'
+    400048: '*U62601 1'
+    400050: //RootNode
+    400052: Component#1
+    400054: Component#1 1
+    400056: FRAME
+    400058: SLATS
+    2300000: '*U1128'
+    2300002: '*U1135'
+    2300004: '*U1135 1'
+    2300006: '*U1135 2'
+    2300008: '*U1135 3'
+    2300010: '*U1136'
+    2300012: '*U1136 1'
+    2300014: '*U1258'
+    2300016: '*U1262'
+    2300018: '*U1262 1'
+    2300020: '*U56807'
+    2300022: '*U56807 1'
+    2300024: '*U56807 2'
+    2300026: '*U56807 3'
+    2300028: '*U56807 4'
+    2300030: '*U56807 5'
+    2300032: '*U56807 6'
+    2300034: '*U56807 7'
+    2300036: '*U585'
+    2300038: '*U585 1'
+    2300040: '*U585 2'
+    2300042: '*U585 3'
+    2300044: '*U585 4'
+    2300046: '*U62601'
+    2300048: '*U62601 1'
+    2300050: Component#1
+    2300052: Component#1 1
+    3300000: '*U1128'
+    3300002: '*U1135'
+    3300004: '*U1135 1'
+    3300006: '*U1135 2'
+    3300008: '*U1135 3'
+    3300010: '*U1136'
+    3300012: '*U1136 1'
+    3300014: '*U1258'
+    3300016: '*U1262'
+    3300018: '*U1262 1'
+    3300020: '*U56807'
+    3300022: '*U56807 1'
+    3300024: '*U56807 2'
+    3300026: '*U56807 3'
+    3300028: '*U56807 4'
+    3300030: '*U56807 5'
+    3300032: '*U56807 6'
+    3300034: '*U56807 7'
+    3300036: '*U585'
+    3300038: '*U585 1'
+    3300040: '*U585 2'
+    3300042: '*U585 3'
+    3300044: '*U585 4'
+    3300046: '*U62601'
+    3300048: '*U62601 1'
+    3300050: Component#1
+    3300052: Component#1 1
+    4300000: Mesh *U1136
+    4300002: Mesh *U1135
+    4300004: Mesh *U1258
+    4300006: Mesh *U1262
+    4300008: Mesh *U1128
+    4300010: Mesh *U56807
+    4300012: Mesh *U585
+    4300014: Mesh *U62601
+    4300016: Mesh Component#1
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

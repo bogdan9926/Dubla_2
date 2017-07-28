@@ -1,0 +1,532 @@
+fileFormatVersion: 2
+guid: 13efe4a59b5a77e478d01d68ec3c920a
+timeCreated: 1486139135
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 1
+  mergeCoplanarFaces: 1
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f00000060000000610000006200000063000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 4ba20695f214e2683848343948c32555
+  longitude: 121.417
+  latitude: 31.217
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -238.19115, y: 15.134707, z: -17.604197}
+      lookAt: {x: -218.5632, y: 5.8471107, z: -31.174425}
+      up: {x: 0.2983492, y: 0.93190145, z: -0.20627034}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Group 2
+    100002: //RootNode
+    100004: Fatada Muzeu Br
+    100006: fierforjat#2
+    100008: fierforjat#2 1
+    100010: fierforjat#2 1_MeshPart0
+    100012: fierforjat#2 1_MeshPart1
+    100014: fierforjat#2 1_MeshPart2
+    100016: fierforjat#2 1_MeshPart3
+    100018: fierforjat#2 2
+    100020: fierforjat#2 2_MeshPart0
+    100022: fierforjat#2 2_MeshPart1
+    100024: fierforjat#2 2_MeshPart2
+    100026: fierforjat#2 2_MeshPart3
+    100028: fierforjat#2 3
+    100030: fierforjat#2 3_MeshPart0
+    100032: fierforjat#2 3_MeshPart1
+    100034: fierforjat#2 3_MeshPart2
+    100036: fierforjat#2 3_MeshPart3
+    100038: fierforjat#2 4
+    100040: fierforjat#2 4_MeshPart0
+    100042: fierforjat#2 4_MeshPart1
+    100044: fierforjat#2 4_MeshPart2
+    100046: fierforjat#2 4_MeshPart3
+    100048: fierforjat#2 5
+    100050: fierforjat#2 5_MeshPart0
+    100052: fierforjat#2 5_MeshPart1
+    100054: fierforjat#2 5_MeshPart2
+    100056: fierforjat#2 5_MeshPart3
+    100058: fierforjat#2 6
+    100060: fierforjat#2 6_MeshPart0
+    100062: fierforjat#2 6_MeshPart1
+    100064: fierforjat#2 6_MeshPart2
+    100066: fierforjat#2 6_MeshPart3
+    100068: fierforjat#2 7
+    100070: fierforjat#2 7_MeshPart0
+    100072: fierforjat#2 7_MeshPart1
+    100074: fierforjat#2 7_MeshPart2
+    100076: fierforjat#2 7_MeshPart3
+    100078: fierforjat#2_MeshPart0
+    100080: fierforjat#2_MeshPart1
+    100082: fierforjat#2_MeshPart2
+    100084: fierforjat#2_MeshPart3
+    100086: GEAM
+    100088: GEAM 1
+    100090: GEAM 2
+    100092: geam1
+    100094: geam1 1
+    100096: geam1 2
+    100098: geam1 3
+    100100: geam1 4
+    100102: geam1 5
+    100104: geam2
+    100106: geam2 1
+    100108: geam2 2
+    100110: geam2 3
+    100112: geam2 4
+    100114: geam2 5
+    100116: geam2 6
+    100118: geam2 7
+    100120: geam2 8
+    100122: Group 6
+    100124: ornam
+    100126: ornam 1
+    100128: ornam1
+    100130: ornam1 1
+    100132: ornam1 2
+    100134: ornam1 3
+    100136: ornam2
+    100138: ornam2 1
+    100140: ornam2 2
+    100142: ornam2 3
+    100144: ornam3
+    100146: ornam3 1
+    100148: ornam4
+    100150: ornam4 1
+    100152: ornam4 2
+    100154: ornam4 3
+    100156: ornam5
+    100158: ornam5 1
+    100160: ornam6
+    100162: ornampoarta
+    100164: ornampoarta_MeshPart0
+    100166: ornampoarta_MeshPart1
+    100168: fierforjat#2 1_MeshPart4
+    100170: fierforjat#2 1_MeshPart5
+    100172: fierforjat#2 1_MeshPart6
+    100174: fierforjat#2 2_MeshPart4
+    100176: fierforjat#2 2_MeshPart5
+    100178: fierforjat#2 2_MeshPart6
+    100180: fierforjat#2 3_MeshPart4
+    100182: fierforjat#2 3_MeshPart5
+    100184: fierforjat#2 3_MeshPart6
+    100186: fierforjat#2 4_MeshPart4
+    100188: fierforjat#2 4_MeshPart5
+    100190: fierforjat#2 4_MeshPart6
+    100192: fierforjat#2 5_MeshPart4
+    100194: fierforjat#2 5_MeshPart5
+    100196: fierforjat#2 5_MeshPart6
+    100198: fierforjat#2 6_MeshPart4
+    100200: fierforjat#2 6_MeshPart5
+    100202: fierforjat#2 6_MeshPart6
+    100204: fierforjat#2 7_MeshPart4
+    100206: fierforjat#2 7_MeshPart5
+    100208: fierforjat#2 7_MeshPart6
+    100210: fierforjat#2_MeshPart4
+    100212: fierforjat#2_MeshPart5
+    100214: fierforjat#2_MeshPart6
+    400000: Group 2
+    400002: //RootNode
+    400004: Fatada Muzeu Br
+    400006: fierforjat#2
+    400008: fierforjat#2 1
+    400010: fierforjat#2 1_MeshPart0
+    400012: fierforjat#2 1_MeshPart1
+    400014: fierforjat#2 1_MeshPart2
+    400016: fierforjat#2 1_MeshPart3
+    400018: fierforjat#2 2
+    400020: fierforjat#2 2_MeshPart0
+    400022: fierforjat#2 2_MeshPart1
+    400024: fierforjat#2 2_MeshPart2
+    400026: fierforjat#2 2_MeshPart3
+    400028: fierforjat#2 3
+    400030: fierforjat#2 3_MeshPart0
+    400032: fierforjat#2 3_MeshPart1
+    400034: fierforjat#2 3_MeshPart2
+    400036: fierforjat#2 3_MeshPart3
+    400038: fierforjat#2 4
+    400040: fierforjat#2 4_MeshPart0
+    400042: fierforjat#2 4_MeshPart1
+    400044: fierforjat#2 4_MeshPart2
+    400046: fierforjat#2 4_MeshPart3
+    400048: fierforjat#2 5
+    400050: fierforjat#2 5_MeshPart0
+    400052: fierforjat#2 5_MeshPart1
+    400054: fierforjat#2 5_MeshPart2
+    400056: fierforjat#2 5_MeshPart3
+    400058: fierforjat#2 6
+    400060: fierforjat#2 6_MeshPart0
+    400062: fierforjat#2 6_MeshPart1
+    400064: fierforjat#2 6_MeshPart2
+    400066: fierforjat#2 6_MeshPart3
+    400068: fierforjat#2 7
+    400070: fierforjat#2 7_MeshPart0
+    400072: fierforjat#2 7_MeshPart1
+    400074: fierforjat#2 7_MeshPart2
+    400076: fierforjat#2 7_MeshPart3
+    400078: fierforjat#2_MeshPart0
+    400080: fierforjat#2_MeshPart1
+    400082: fierforjat#2_MeshPart2
+    400084: fierforjat#2_MeshPart3
+    400086: GEAM
+    400088: GEAM 1
+    400090: GEAM 2
+    400092: geam1
+    400094: geam1 1
+    400096: geam1 2
+    400098: geam1 3
+    400100: geam1 4
+    400102: geam1 5
+    400104: geam2
+    400106: geam2 1
+    400108: geam2 2
+    400110: geam2 3
+    400112: geam2 4
+    400114: geam2 5
+    400116: geam2 6
+    400118: geam2 7
+    400120: geam2 8
+    400122: Group 6
+    400124: ornam
+    400126: ornam 1
+    400128: ornam1
+    400130: ornam1 1
+    400132: ornam1 2
+    400134: ornam1 3
+    400136: ornam2
+    400138: ornam2 1
+    400140: ornam2 2
+    400142: ornam2 3
+    400144: ornam3
+    400146: ornam3 1
+    400148: ornam4
+    400150: ornam4 1
+    400152: ornam4 2
+    400154: ornam4 3
+    400156: ornam5
+    400158: ornam5 1
+    400160: ornam6
+    400162: ornampoarta
+    400164: ornampoarta_MeshPart0
+    400166: ornampoarta_MeshPart1
+    400168: fierforjat#2 1_MeshPart4
+    400170: fierforjat#2 1_MeshPart5
+    400172: fierforjat#2 1_MeshPart6
+    400174: fierforjat#2 2_MeshPart4
+    400176: fierforjat#2 2_MeshPart5
+    400178: fierforjat#2 2_MeshPart6
+    400180: fierforjat#2 3_MeshPart4
+    400182: fierforjat#2 3_MeshPart5
+    400184: fierforjat#2 3_MeshPart6
+    400186: fierforjat#2 4_MeshPart4
+    400188: fierforjat#2 4_MeshPart5
+    400190: fierforjat#2 4_MeshPart6
+    400192: fierforjat#2 5_MeshPart4
+    400194: fierforjat#2 5_MeshPart5
+    400196: fierforjat#2 5_MeshPart6
+    400198: fierforjat#2 6_MeshPart4
+    400200: fierforjat#2 6_MeshPart5
+    400202: fierforjat#2 6_MeshPart6
+    400204: fierforjat#2 7_MeshPart4
+    400206: fierforjat#2 7_MeshPart5
+    400208: fierforjat#2 7_MeshPart6
+    400210: fierforjat#2_MeshPart4
+    400212: fierforjat#2_MeshPart5
+    400214: fierforjat#2_MeshPart6
+    2300000: Group 2
+    2300002: //RootNode
+    2300004: Fatada Muzeu Br
+    2300006: fierforjat#2 1_MeshPart0
+    2300008: fierforjat#2 1_MeshPart1
+    2300010: fierforjat#2 1_MeshPart2
+    2300012: fierforjat#2 1_MeshPart3
+    2300014: fierforjat#2 2_MeshPart0
+    2300016: fierforjat#2 2_MeshPart1
+    2300018: fierforjat#2 2_MeshPart2
+    2300020: fierforjat#2 2_MeshPart3
+    2300022: fierforjat#2 3_MeshPart0
+    2300024: fierforjat#2 3_MeshPart1
+    2300026: fierforjat#2 3_MeshPart2
+    2300028: fierforjat#2 3_MeshPart3
+    2300030: fierforjat#2 4_MeshPart0
+    2300032: fierforjat#2 4_MeshPart1
+    2300034: fierforjat#2 4_MeshPart2
+    2300036: fierforjat#2 4_MeshPart3
+    2300038: fierforjat#2 5_MeshPart0
+    2300040: fierforjat#2 5_MeshPart1
+    2300042: fierforjat#2 5_MeshPart2
+    2300044: fierforjat#2 5_MeshPart3
+    2300046: fierforjat#2 6_MeshPart0
+    2300048: fierforjat#2 6_MeshPart1
+    2300050: fierforjat#2 6_MeshPart2
+    2300052: fierforjat#2 6_MeshPart3
+    2300054: fierforjat#2 7_MeshPart0
+    2300056: fierforjat#2 7_MeshPart1
+    2300058: fierforjat#2 7_MeshPart2
+    2300060: fierforjat#2 7_MeshPart3
+    2300062: fierforjat#2_MeshPart0
+    2300064: fierforjat#2_MeshPart1
+    2300066: fierforjat#2_MeshPart2
+    2300068: fierforjat#2_MeshPart3
+    2300070: GEAM
+    2300072: GEAM 1
+    2300074: GEAM 2
+    2300076: geam1
+    2300078: geam1 1
+    2300080: geam1 2
+    2300082: geam1 3
+    2300084: geam1 4
+    2300086: geam1 5
+    2300088: geam2
+    2300090: geam2 1
+    2300092: geam2 2
+    2300094: geam2 3
+    2300096: geam2 4
+    2300098: geam2 5
+    2300100: geam2 6
+    2300102: geam2 7
+    2300104: geam2 8
+    2300106: Group 6
+    2300108: ornam
+    2300110: ornam 1
+    2300112: ornam1
+    2300114: ornam1 1
+    2300116: ornam1 2
+    2300118: ornam1 3
+    2300120: ornam2
+    2300122: ornam2 1
+    2300124: ornam2 2
+    2300126: ornam2 3
+    2300128: ornam3
+    2300130: ornam3 1
+    2300132: ornam4
+    2300134: ornam4 1
+    2300136: ornam4 2
+    2300138: ornam4 3
+    2300140: ornam5
+    2300142: ornam5 1
+    2300144: ornam6
+    2300146: ornampoarta_MeshPart0
+    2300148: ornampoarta_MeshPart1
+    2300150: fierforjat#2 1_MeshPart4
+    2300152: fierforjat#2 1_MeshPart5
+    2300154: fierforjat#2 1_MeshPart6
+    2300156: fierforjat#2 2_MeshPart4
+    2300158: fierforjat#2 2_MeshPart5
+    2300160: fierforjat#2 2_MeshPart6
+    2300162: fierforjat#2 3_MeshPart4
+    2300164: fierforjat#2 3_MeshPart5
+    2300166: fierforjat#2 3_MeshPart6
+    2300168: fierforjat#2 4_MeshPart4
+    2300170: fierforjat#2 4_MeshPart5
+    2300172: fierforjat#2 4_MeshPart6
+    2300174: fierforjat#2 5_MeshPart4
+    2300176: fierforjat#2 5_MeshPart5
+    2300178: fierforjat#2 5_MeshPart6
+    2300180: fierforjat#2 6_MeshPart4
+    2300182: fierforjat#2 6_MeshPart5
+    2300184: fierforjat#2 6_MeshPart6
+    2300186: fierforjat#2 7_MeshPart4
+    2300188: fierforjat#2 7_MeshPart5
+    2300190: fierforjat#2 7_MeshPart6
+    2300192: fierforjat#2_MeshPart4
+    2300194: fierforjat#2_MeshPart5
+    2300196: fierforjat#2_MeshPart6
+    3300000: Group 2
+    3300002: //RootNode
+    3300004: Fatada Muzeu Br
+    3300006: fierforjat#2 1_MeshPart0
+    3300008: fierforjat#2 1_MeshPart1
+    3300010: fierforjat#2 1_MeshPart2
+    3300012: fierforjat#2 1_MeshPart3
+    3300014: fierforjat#2 2_MeshPart0
+    3300016: fierforjat#2 2_MeshPart1
+    3300018: fierforjat#2 2_MeshPart2
+    3300020: fierforjat#2 2_MeshPart3
+    3300022: fierforjat#2 3_MeshPart0
+    3300024: fierforjat#2 3_MeshPart1
+    3300026: fierforjat#2 3_MeshPart2
+    3300028: fierforjat#2 3_MeshPart3
+    3300030: fierforjat#2 4_MeshPart0
+    3300032: fierforjat#2 4_MeshPart1
+    3300034: fierforjat#2 4_MeshPart2
+    3300036: fierforjat#2 4_MeshPart3
+    3300038: fierforjat#2 5_MeshPart0
+    3300040: fierforjat#2 5_MeshPart1
+    3300042: fierforjat#2 5_MeshPart2
+    3300044: fierforjat#2 5_MeshPart3
+    3300046: fierforjat#2 6_MeshPart0
+    3300048: fierforjat#2 6_MeshPart1
+    3300050: fierforjat#2 6_MeshPart2
+    3300052: fierforjat#2 6_MeshPart3
+    3300054: fierforjat#2 7_MeshPart0
+    3300056: fierforjat#2 7_MeshPart1
+    3300058: fierforjat#2 7_MeshPart2
+    3300060: fierforjat#2 7_MeshPart3
+    3300062: fierforjat#2_MeshPart0
+    3300064: fierforjat#2_MeshPart1
+    3300066: fierforjat#2_MeshPart2
+    3300068: fierforjat#2_MeshPart3
+    3300070: GEAM
+    3300072: GEAM 1
+    3300074: GEAM 2
+    3300076: geam1
+    3300078: geam1 1
+    3300080: geam1 2
+    3300082: geam1 3
+    3300084: geam1 4
+    3300086: geam1 5
+    3300088: geam2
+    3300090: geam2 1
+    3300092: geam2 2
+    3300094: geam2 3
+    3300096: geam2 4
+    3300098: geam2 5
+    3300100: geam2 6
+    3300102: geam2 7
+    3300104: geam2 8
+    3300106: Group 6
+    3300108: ornam
+    3300110: ornam 1
+    3300112: ornam1
+    3300114: ornam1 1
+    3300116: ornam1 2
+    3300118: ornam1 3
+    3300120: ornam2
+    3300122: ornam2 1
+    3300124: ornam2 2
+    3300126: ornam2 3
+    3300128: ornam3
+    3300130: ornam3 1
+    3300132: ornam4
+    3300134: ornam4 1
+    3300136: ornam4 2
+    3300138: ornam4 3
+    3300140: ornam5
+    3300142: ornam5 1
+    3300144: ornam6
+    3300146: ornampoarta_MeshPart0
+    3300148: ornampoarta_MeshPart1
+    3300150: fierforjat#2 1_MeshPart4
+    3300152: fierforjat#2 1_MeshPart5
+    3300154: fierforjat#2 1_MeshPart6
+    3300156: fierforjat#2 2_MeshPart4
+    3300158: fierforjat#2 2_MeshPart5
+    3300160: fierforjat#2 2_MeshPart6
+    3300162: fierforjat#2 3_MeshPart4
+    3300164: fierforjat#2 3_MeshPart5
+    3300166: fierforjat#2 3_MeshPart6
+    3300168: fierforjat#2 4_MeshPart4
+    3300170: fierforjat#2 4_MeshPart5
+    3300172: fierforjat#2 4_MeshPart6
+    3300174: fierforjat#2 5_MeshPart4
+    3300176: fierforjat#2 5_MeshPart5
+    3300178: fierforjat#2 5_MeshPart6
+    3300180: fierforjat#2 6_MeshPart4
+    3300182: fierforjat#2 6_MeshPart5
+    3300184: fierforjat#2 6_MeshPart6
+    3300186: fierforjat#2 7_MeshPart4
+    3300188: fierforjat#2 7_MeshPart5
+    3300190: fierforjat#2 7_MeshPart6
+    3300192: fierforjat#2_MeshPart4
+    3300194: fierforjat#2_MeshPart5
+    3300196: fierforjat#2_MeshPart6
+    4300000: Mesh room-2-floor
+    4300002: Mesh Group 2
+    4300004: Mesh Fatada Muzeu Br
+    4300006: Mesh Group 6
+    4300008: Mesh ornampoarta_MeshPart0
+    4300010: Mesh ornampoarta_MeshPart1
+    4300012: Mesh geam1
+    4300014: Mesh GEAM
+    4300016: Mesh fierforjat#2_MeshPart0
+    4300018: Mesh fierforjat#2_MeshPart1
+    4300020: Mesh fierforjat#2_MeshPart2
+    4300022: Mesh fierforjat#2_MeshPart3
+    4300024: Mesh ornam5
+    4300026: Mesh geam2
+    4300028: Mesh ornam
+    4300030: Mesh ornam3
+    4300032: Mesh ornam2
+    4300034: Mesh ornam1
+    4300036: Mesh ornam4
+    4300038: Mesh ornam6
+    4300040: Mesh fierforjat#2_MeshPart4
+    4300042: Mesh fierforjat#2_MeshPart5
+    4300044: Mesh fierforjat#2_MeshPart6
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
